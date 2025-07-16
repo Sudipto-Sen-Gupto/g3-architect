@@ -22,9 +22,12 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 /* header section */
-
+.headside{
+    font-size: 3rem;
+}
 .navbar{
 justify-content: space-between;
+align-items: center;
 }
 .menu{
   /* padding: 20px; */
@@ -43,4 +46,26 @@ text-decoration:none;
 .navbar,.banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.banner img{
+   width: 100%;
+}
+.banner-head{
+    font-size: 4rem;
+}
+.banner-content{
+    width: 860px;
+    text-align: center;
+     margin: 0 auto;
+     margin-bottom: 25px;
+    
+
+}
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: #FFFFFF;
+    width: 180px;
+    border-radius: .5rem;
+    font-size:1.25rem ;
+    padding: 23px 23px;
 }
